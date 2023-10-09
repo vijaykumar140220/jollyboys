@@ -18,12 +18,14 @@ const people =[
     {
         name: "prakesh",
         photo: "prakesh.jpg",
-        details: `(vice captain)right hand batsman right arm pacer`
+        details: `(vice captain)right hand batsman
+                  right arm pacer`
     },
     {
         name: "diva",
         photo: "divakar.jpg",
-        details: "right hand batsman right arm off break"
+        details: `right hand batsman 
+                   right arm off break`
     },
     {
         name: "mari",

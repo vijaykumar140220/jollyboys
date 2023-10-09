@@ -184,8 +184,6 @@ body{
     }
     .head ul li a{
         display: flex;
-        /* margin: 20px; */
-        /* padding: 10px; */
         font-size: 12px;
     }
     .head h1{
@@ -195,7 +193,7 @@ body{
         font-size: 18px;
     }
     .cricker img{
-        width: 300px;
+        width: 200px;
         height: 450px;
     }
     .pg1{
@@ -229,24 +227,38 @@ body{
         top: 90%;
         left: 40%;
     }
+    .flex{
+        display: block;
+    }
     .contact h4{
         font-size: 20px;
         text-transform: uppercase;
     }
     .contact h1{
-        font-size: 15px;
+        font-size: 1px;
+    }
+    .contact{
+        text-align: center;
+        margin: -130px 0;
+    }
+    .details{
+        text-align: center;
     }
     .details h3{
         font-size: 15px;
+        margin: 20px 0;
     }
     .details p{
         font-size: 18px;
     }
     .suggestion h2{
+        margin: 30px 0;
         font-size: 18px;
+        text-align: center;
     }
     .suggestion ul li{
-        font-size: 12px;
+        font-size: 10px;
+        list-style: circle;
     }
     .suggestion{
         margin: 20px 0;
@@ -254,6 +266,9 @@ body{
     .details{
         height: 40vh;
         padding: 0 10px;
-        margin: 10px 0;
+        margin: 20px 0;
+    }
+    #personDescription{
+        font-size: 12px;
     }
 }
