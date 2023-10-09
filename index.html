@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Pereson Details</title>
+</head>
+
+<body>
+    <div class="pg1">
+    <div class="head">
+        <h1>jolly boys</h1>
+        <ul>
+            <li><a href="#personList">players</a></li>
+            <!-- <li><a href="">about</a></li> -->
+            <!-- <li><a href="">match</a></li> -->
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="cricker">
+        <img src="cricket.png" alt="cricket">
+    </div>
+        <h1>cricker is a team sport, no individual is bigger then the team <br>if you want to play against us then</h1>
+    </div>
+    <span>click players name</span>
+</div>
+
+
+    <div class="player">
+        <h1>player list</h1>
+        <ul id="personList">
+            <li onclick="displayDetails(0)">azar</li>
+            <li onclick="displayDetails(1)">gopi</li>
+            <li onclick="displayDetails(2)">harun</li>
+            <li onclick="displayDetails(3)">prakesh</li>
+            <li onclick="displayDetails(4)">diva</li>
+            <li onclick="displayDetails(5)">mari</li>
+            <li onclick="displayDetails(6)">vijay</li>
+            <li onclick="displayDetails(7)">naren</li>
+            <li onclick="displayDetails(8)">dharni</li>
+            <li onclick="displayDetails(9)">saravanan</li>
+            <li onclick="displayDetails(10)">balaji</li>
+            <li onclick="displayDetails(11)">nithish</li>
+            <li onclick="displayDetails(12)">hari</li>
+        </ul>
+    </div>
+
+    <div id="detailsContainer">
+        <img id="personPhoto" src="" alt="person photo">
+        <div id="personDetails">
+            <h2 id="personName"></h2>
+            <p id="personDescription"></p>
+        </div>
+    </div>
+    <script src='image.js'></script>
+    <div class="contact" id="contact" >
+        <h4 id="contact">contact</h4>
+        <h1>if you want to play against us then contact us</h1>
+        <div class="flex">
+            <div class="details">
+                <div class="one">
+                    <h3>call</h3>
+                    <p>9087120704</p>
+                </div>
+                <div class="two">
+                    <h3>watsapp</h3>
+                    <p>9087120704</p>
+                </div>
+                <div class="three">
+                    <h3>email</h3>
+                    <p>jollyboys@gmail.com</p>
+                </div>
+            </div>
+            <div class="suggestion">
+                <h2>suggestion</h2>
+                <ul>
+                    <li>please fix match on sunday we play only honest cricket so there is no space for cheating.</li>
+                    <li>the amount should br given to the umpire before the match. after the match the money was given to winning team</li>
+                    <li>reach the ground at correct time.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

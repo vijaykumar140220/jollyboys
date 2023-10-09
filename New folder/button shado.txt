@@ -1,0 +1,11 @@
+border: 10px solid white;
+    border-top-color: #f02214;
+    border-right-color: #ec27db;
+    border-bottom-color: rgb(238, 234, 15);
+    border-left-color: rgb(118, 221, 15);
+    outline: 8px solid royalblue;
+    outline-offset: 2px;
+    box-shadow: 0 0 0 10px black, 
+                 0 0 0 20px rgb(241, 4, 4),
+                 0 0 0 30px rgb(20, 218, 158),
+                 0 0 0 40px rgb(226, 18, 226);
