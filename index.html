@@ -10,10 +10,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Pereson Details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <div class="pg1">
+        <head>
     <div class="head">
         <h1>jolly boys</h1>
         <ul>
@@ -22,12 +24,14 @@
             <!-- <li><a href="">match</a></li> -->
             <li><a href="#contact">contact</a></li>
         </ul>
+        <i class="fa-solid fa-moon" id="sample"></i>
     </div>
+</head>
     <div class="container">
         <div class="cricker">
         <img src="cricket.png" alt="cricket">
     </div>
-        <h1>cricker is a team sport, no individual is bigger then the team <br>if you want to play against us then</h1>
+        <h1>cricket is a team sport, no individual is bigger then the team <br>if you want to play against us then</h1>
     </div>
     <span>click players name</span>
 </div>
@@ -91,5 +95,14 @@
         </div>
     </div>
 </body>
+<script>
+    sample.addEventListener("click",change);
+
+
+    function change(){
+        document.body.style.backgroundColor = "purple";
+        sample.style.color = "green";
+    }
+</script>
 
 </html>
